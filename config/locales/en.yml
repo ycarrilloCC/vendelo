@@ -1,0 +1,63 @@
+en:
+  shared:
+    header:
+      add: 'Add product'
+  activerecord:
+    models:
+      product: 'Products'
+      category: 'Category'
+    attributes:
+      product:
+        title: 'Title'
+        description: 'Description'
+        price: 'Price'
+        photo: 'Photo'
+      category:
+        name: 'Name'
+    errors:
+      models:
+        product:
+          attributes:
+            title:
+              blank: 'It cant be empty'
+            description:   
+              blank: 'It cant be empty'
+            price:
+              blank: 'It cant be empty'
+        category:
+          attributes:
+            name:
+              blank: 'It cant be empty'
+  common:
+    confirm: 'Are you sure?'
+    back: 'Back' 
+  products:
+    index:
+      title: 'Products:'
+    new:
+      title: 'Create product'
+    create:
+      created: 'The product was created successfully.'
+    edit:
+      title: 'Edit product'
+    update:
+      updated: 'The product was successfully updated.'
+    destroy:
+      destroyed: 'The product was successfully removed.'
+  categories:
+    index:
+      title: 'Categories:'
+      create: 'New category'
+    new:
+      title: 'Create category'
+    create:
+      created: 'The category was created successfully.'
+    edit:
+      title: 'Edit category'
+    update:
+      updated: 'The category was updated successfully.'
+    destroy:
+      destroyed: 'The category was successfully removed.'
+    category:
+      delete: 'Delete'
+      edit: 'Edit'
