@@ -1,7 +1,8 @@
 es:
   shared:
     header:
-      add: 'Añadir producto'
+      products: 'Añadir producto'
+      categories: 'Añadir Categoría'
   activerecord:
     models:
       product: 'Producto'
@@ -12,6 +13,8 @@ es:
         description: 'Descripcion'
         price: 'Precio'
         photo: 'Foto'
+        category: 'Categoria'
+        category_id: 'Categoria'
       category:
         name: 'Nombre'
     errors:
@@ -24,6 +27,8 @@ es:
               blank: 'No puede estar vacia'
             price:
               blank: 'No puede estar vacio'
+            category:
+              required: 'Debe existir'
         category:
           attributes:
             name:

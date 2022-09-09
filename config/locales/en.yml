@@ -1,7 +1,8 @@
 en:
   shared:
     header:
-      add: 'Add product'
+      products: 'Add product'
+      categories: 'Add category'
   activerecord:
     models:
       product: 'Products'
@@ -12,6 +13,8 @@ en:
         description: 'Description'
         price: 'Price'
         photo: 'Photo'
+        category: 'Category'
+        category_id: 'Category'
       category:
         name: 'Name'
     errors:
@@ -24,6 +27,8 @@ en:
               blank: 'It cant be empty'
             price:
               blank: 'It cant be empty'
+            category:
+              required: 'Must exist'
         category:
           attributes:
             name:

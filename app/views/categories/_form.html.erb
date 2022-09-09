@@ -1,19 +1,13 @@
-<%= form_with(model: category) do |form| %>
-  <% if category.errors.any? %>
-    <div style="color: red">
-      <ul>
-        <% category.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div>
-    <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
-  </div>
-  <div>
+<%= form_with model: @category do |form| %>
+    <% @category.errors.full_messages.each do |error| %>
+        <div>
+            <%= error %>
+        </div>
+    <% end %>
+    <br>
+    <div>
+        <%= form.label :name %><br>
+        <%= form.text_field :name %>
+    </div><br>
     <%= form.submit %>
-  </div>
 <% end %>

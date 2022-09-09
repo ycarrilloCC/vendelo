@@ -2,8 +2,16 @@ ps4:
   title: PS4 Fat
   description: PS4 en buen estado
   price: 150
+  category: videogames
 
 switch:
   title: Nintendo Switch
   description: Le falta lector de tarjeta SD
   price: 195
+  category: computing
+
+ps5:
+  title: PS5 Digital
+  description: Nuevo de paquete
+  price: 820
+  category: videogames
